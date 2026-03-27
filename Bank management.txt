@@ -1,0 +1,15 @@
+Bank Account Management system
+
+A Bank Account Management App is a database-based application designed to manage customer banking records efficiently and securely. This system allows users or bank administrators to store, update, delete, search, and manage transactions related to bank accounts in a structured way.
+
+The application maintains key details of each account, including Account Number (accNo), Customer Name, Balance, and Account Type (such as Savings or Current). Each account is uniquely identified by the account number, ensuring accurate record management without duplication.
+
+The “Add Account” feature enables the creation of new bank accounts by entering customer details and initializing the balance. The “Update Account” functionality allows modification of customer information, such as name or account type, whenever required.
+
+The system includes a “Delete Account” option, which helps remove inactive or closed accounts from the database, keeping records clean and relevant. The “Search Account” feature allows users to quickly find specific account details using the account number, making data retrieval fast and efficient.
+
+One of the core functionalities of this application is handling financial transactions. The “Deposit” feature allows users to add money to an account, automatically updating the balance. Similarly, the “Withdraw” feature enables users to withdraw money, with proper validation to ensure that sufficient balance is available, preventing overdrawing.
+
+The “View/List Accounts” feature displays all stored account records in a clear and organized format, helping administrators monitor customer data easily.
+
+This system can be implemented using a database like MySQL, ensuring data integrity, security, and fast processing of operations. Overall, the Bank Account Management App reduces manual errors, improves efficiency, and provides a reliable digital solution for managing banking operations in a simple and effective way.
